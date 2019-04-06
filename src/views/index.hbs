@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img src="producto.jpeg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h1>30 $</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus velit asperiores similique, architecto earum officia natus recusandae alias et quos aut repudiandae debitis nam aliquam sequi dignissimos, ratione aliquid doloremque.
+                </p>
+            </div>
+            <div class="card-footer">
+<form action="checkout" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_KjNE7N6MMm4hJk90ut3eR2Vz00LL8WJAUf"
+    data-amount="3000"
+    data-name="Software Int"
+    data-description="Software Video Edit"
+    data-image="/images.png"
+    data-locale="auto">
+  </script>
+  <script>
+      document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+  </script>
+   <button class="btn btn-dark btn-block">
+       Buy<i class="fas fa-shopping-card"></i>
+   </button>
+</form>
+
+            </div>
+        </div>
+    </div>
+</div>
